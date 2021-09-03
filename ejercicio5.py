@@ -17,4 +17,3 @@ for indice in range(0,total_personas):
 
 promedio = suma/total_personas
 print("la edad promedio es de: ", promedio)
-#a esta wea le falta la mierda de las personas contratadas, pero la verdad no entiendo na 
