@@ -8,7 +8,7 @@ total_ahorro = 0
 
 # se crea estructura repetitiva
 # se calculara cuanto debe ahorrar cada mes y 
-# cuanto es el total del ahorra 
+# cuanto es el total del ahorro
 for i in range(0,12):
     ahorro = monto_inicial + (i *incremento)
     total_ahorro = total_ahorro + ahorro
