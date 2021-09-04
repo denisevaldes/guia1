@@ -1,15 +1,18 @@
-#4. Se requiere un programa para determinar 
-# cuánto ahorrará una persona en un año, si al final de cada
-#mes deposita variables cantidades de dinero; 
-# además, se requiere saber cuánto lleva ahorrado cada mes
+#ejercicio 4
 
-i = 0
-cantidad_ahorrada = 0
+# se pide ingresar monto inicial y el incremento en el ahorro mes a mes 
+monto_inicial = int(input("indique el monto inicial para comenzar a ahorrar: "))
+incremento = int(input("indique por cuanto quiere ir incrementando el ahorro inicial mes a mes: "))
+i = None
+total_ahorro = 0
 
+# se crea estructura repetitiva
+# se calculara cuanto debe ahorrar cada mes y 
+# cuanto es el total del ahorra 
 for i in range(0,12):
-    print("mes", i+1)
-    ahorro = int(input("indique la cantidad ahorrada este mes: "))
-    cantidad_ahorrada =  ahorro + cantidad_ahorrada
-    print("la cantidad ahorrada hasta ahora es de: ", cantidad_ahorrada)
+    ahorro = monto_inicial + (i *incremento)
+    total_ahorro = total_ahorro + ahorro
+    print("mes: ", i)
+    print("el ahorro de este mes quedaria en: ", ahorro)
 
-print("cantidad ahorrada a finalizar el año: ", cantidad_ahorrada)
+print("el total ahorrado seria de: ", total_ahorro)

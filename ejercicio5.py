@@ -1,19 +1,20 @@
-#Una empresa que contrata personal requiere determinar 
-#la edad de cada una de las personas que
-#solicitan trabajo, pero cuando se les realiza la
-#entrevista solo se les pregunta el año en que nacieron.
-#También se requiere el promedio de edad de las personas contratadas.
+#ejercicio 5
 
-total_personas = int(input("indique el total de las personas que solicitan trabajo: "))
-indice = 0
-suma = 0
-
+#se pide que se ingrese el numero de personas al que se le calculara la edad
+total_personas = int(input("indique el total de las personas para calcular su edad: "))
+indice = None
+suma_edades = 0
+# for se repetira hasta alcanzar el total_personas
+# dentro de estructura for se calculara la edad de las personas
 for indice in range(0,total_personas):
     print("persona ", indice+1)
     año_nacimiento = int(input("indique el año de nacimiento: "))
     edad =  2021 - año_nacimiento
-    suma = suma + edad
+    #variable suma se ocupa de ir sumando todas las edades
+    # con esto luego se calculara la edad promedio
+    suma_edades = suma_edades + edad
     print("la edad de la persona es: ", edad)
 
-promedio = suma/total_personas
+#se calcula y muestra en pantalla la edad promedio
+promedio = suma_edades/total_personas
 print("la edad promedio es de: ", promedio)

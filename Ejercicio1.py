@@ -1,7 +1,8 @@
-#Realice un programa en Python para determinar cuánto se debe pagar por equis cantidad de lápices
-#considerando que si son 1000 o más el costo es de 85 pesos; de lo contrario, el precio es de 90 pesos.
+#ejercicio 1
 
+#se le pide al usuario que ingrese cantidad de lapices a comprar
 cantidad_lapices = int(input("por favor ingrese la cantidad de lapices: \n"))
+#dependiendo de la catidad de lapices se calculara un preciio u otro. 
 if cantidad_lapices >= 1000: 
     precio = 85 * cantidad_lapices
 else:

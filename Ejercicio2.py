@@ -1,9 +1,9 @@
-#Inicialice una variable en None y si la palabra ingresada es “Hola” debe imprimir Chao, caso contrario
-#debe decir, no entiendo tú mensaje e imprimir el valor de la variable.
+#ejercicio 2
 
+# se inicia variable en None y se pide al usuario ingresar una palabra
 x = None 
 x = input("ingrese una palabra: ")
-
+#dependiendo de la respuesta se devolvera un "hola" o un "no entiendo tu mensaje"
 if x == "Hola":
     print("chao")
 else:
