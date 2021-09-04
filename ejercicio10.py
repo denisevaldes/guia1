@@ -1,10 +1,10 @@
-#ejercicio 10
+# ejercicio 10
 
-#se pide ingresar lados del terreno
+# se pide ingresar lados del terreno
 lado_a = float(input("ingrese la medida de lado a: "))
 lado_b = float(input("ingrese la medida de lado b: "))
 lado_c = float(input("ingrese la medida de lado c: "))
-#se calcula altura de triangulo para calcular el area del triangulo
+# se calcula altura de triangulo para calcular el area del triangulo
 altura_triangulo = lado_a - lado_c
 area_triangulo = (altura_triangulo * lado_b) / 2
 # se calcula area de rectangulo para luego calcular el area total

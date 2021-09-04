@@ -1,4 +1,4 @@
-#ejercicio 4
+# ejercicio 4
 
 # se pide ingresar monto inicial y el incremento en el ahorro mes a mes 
 monto_inicial = int(input("indique el monto inicial para comenzar a ahorrar: "))
